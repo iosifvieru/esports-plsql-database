@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Participari" directorySegmentName="seg_0" id="AC3CB0D9-8F5B-FA80-9393-0EA6B8F8FFE6">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_echipa" id="5D27CA7E-B6C2-F9EA-04B5-B050CF7AEB8D">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="9A4A9F64-E943-8D46-0CEA-DA6F383D109A">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="punctaj" id="9EF5D62C-326A-4C9A-3465-B743FDBE0FD7">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_turneu" id="BDCE8063-A3DE-F601-D380-DB0DA2E7A255">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="echipe_participari_fk" id="94FA0426-E9E4-2F93-F7C9-86AF930347D8">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="turneu_participari_fk" id="DC13A9C1-DC2C-FC04-6473-97F18A3B876A">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Participari_PK" id="DD65F0C9-1B2C-B6B5-F9DA-469B7ABAFFCB">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

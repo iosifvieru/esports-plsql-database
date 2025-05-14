@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB0E777A-122A-BFAF-0A57-C1C7189FB22E" containerWithKeyObject="AC3CB0D9-8F5B-FA80-9393-0EA6B8F8FFE6" localFKIndex="DC13A9C1-DC2C-FC04-6473-97F18A3B876A" name="turneu_participari_fk">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>DB1893C1-5022-A884-95DD-99EDFAE9367D</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>2A82520E-ECCA-BD33-6581-FB0ACD3344F3</importedID>
+<referredTableLongName>Turnee</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7649C50-8F2F-CFBC-B621-19FDA45FFE0F</referredTableID>
+<keyObject>30635BB0-F494-5B20-4320-947507DC504D</keyObject>
+<referredKeyID>30635BB0-F494-5B20-4320-947507DC504D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

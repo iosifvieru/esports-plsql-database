@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A951E67-17DC-CAD3-6E6E-8BA574724CB0" name="Jucatori">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>D489D631-18DA-7ECA-5B60-931AF884B0E2</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>825442A4-4D33-5024-4FAB-02F92600C684</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E8145A53-6AAD-C780-F265-4C1CC3A80649">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>AC35B73B-E474-6460-05E7-2606521A8AEF</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>594B1789-C0EE-C9A3-C404-372A3383E6E6</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="97AE6357-C009-63DF-B546-720DDD4DA236">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>837E5C03-D06F-5B6D-CDD0-45489AD31D2D</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>7DFF4107-266C-60D5-7E73-6A2980C029C8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porecla" id="DD85F971-9F4B-1277-699D-92EC332F780A">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>2DCC3ABB-137C-8BB3-AF00-4A4CCAF664A9</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>120ABD3D-EAA7-9933-74A5-721EE31C7FCF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_echipa" id="CA94B3D8-21A4-D8D3-941A-2DB09AB9090B">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>7C76378E-C6C8-9110-BF23-651E0C50BFA5</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>3717EA67-A7F6-F088-1BB0-A7B91C83C18A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A680E91B-9DCE-B5C3-E6D5-287B4F48505F" referredColumn="CD44EFC9-099C-27FE-A426-32B9E6075602"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B453EA79-28E6-2B08-BC3F-9C862580E3A6" name="Jucatori_PK">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>20735981-057F-996B-83A0-0E38CA70C843</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>D34050D4-3E2B-862A-A0EB-4FC94AEFC32B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8145A53-6AAD-C780-F265-4C1CC3A80649"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15EEA143-C273-F5E6-2857-6ECA16E02E66" name="Jucatori__IDX">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>D0942930-2662-681C-8F72-E33CA4C67D5D</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA94B3D8-21A4-D8D3-941A-2DB09AB9090B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E919422-4975-9DAD-94FE-C59F8F502F61" name="jucatori_echipe_fk">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>D4E51571-4C89-1D01-8148-FEAFE9C7503A</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA94B3D8-21A4-D8D3-941A-2DB09AB9090B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

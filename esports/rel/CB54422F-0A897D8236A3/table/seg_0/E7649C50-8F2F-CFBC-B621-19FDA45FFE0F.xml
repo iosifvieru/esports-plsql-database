@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7649C50-8F2F-CFBC-B621-19FDA45FFE0F" name="Turnee">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>F9D273E9-5624-48A1-7D74-36E5F166FD74</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>0B9C0933-8C76-5A69-225B-200D44F84BA5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="16A03A02-7AB8-F9B7-81F3-5C36D249ACFE">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>8FD50D6A-9FEC-EF24-FF47-09CC6F3CDBB8</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>B511A8BC-5C24-40C7-8468-B162E424B97E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="82514A51-312A-C854-D65B-B6E4C6AB24FD">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>D6D2C2DE-A165-6A0A-764E-0BDD61BBD671</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>5D7CADB0-4D71-61B7-4DB9-9A9D508B0CD3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="locatie" id="C9F9E305-CD4E-18CA-D5F0-A01F140B8257">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>E2E7F290-4603-CB15-E2E9-6A1C37DD13FC</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>A75AFDF2-0A34-F039-217F-7624ECBB775C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_start" id="728F3E9B-AF22-57E0-DD17-162D143FFD3F">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>97096549-FC3D-B482-342D-417AF2A47052</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>9A891E1C-0588-8B14-196F-D3E2CFBF69F3</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_final" id="E18F6DAC-C272-C75E-D09C-C9681D8C41C6">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>06283878-E190-0571-2A5B-36985CB5FAE5</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>7E2B25F1-5533-236D-F24D-66BCF44A8E36</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30635BB0-F494-5B20-4320-947507DC504D" name="Turnee_PK">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>2FA5D51A-0742-61A8-D14B-825D9D4F3A17</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>1AF8270D-0A1A-853A-51AE-9200C215AB30</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16A03A02-7AB8-F9B7-81F3-5C36D249ACFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

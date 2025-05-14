@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA9FA6BB-F3B7-C905-D052-03145CC41B33" name="Meciuri">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>8BA26130-76E1-B435-6B68-E7C052607319</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="6DAB7D0D-696F-C51E-1FB5-87E306B0A6EC">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>D94FA653-A658-0B2F-1DB5-C1569AF919C7</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="F800619A-35E6-6309-074A-D4E73CC9C2A7">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>3CE6431C-F157-381D-F851-51076079F098</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="scor1" id="251012A7-372E-0870-7823-6DE8B9535FDF">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>9BAC327C-2D0D-1A72-933F-A216486613C6</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="scor2" id="C1B75B58-8325-AB53-7406-0A4DBA00E7F3">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>92EFA80A-06CC-18D4-77B2-F7CC439A80C0</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_echipa1" id="95E740AD-2AE1-DFDD-9DAA-C061A81DC9F0">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>2452E685-2D9B-7D75-5703-A2F3858385AB</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>C728E3C3-0AB0-FB45-A2E1-41917726EE70</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<referedAttribute>B0DD8BFA-8C1F-920E-1F1E-F6EBEA97082F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_echipa2" id="976B8999-2B4C-0186-C33B-D7D6BA592678">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>04D429F3-2603-EB23-9DFE-24096D5C634E</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>51EEA96A-5BBB-E2A9-3EBD-45136BC09BE6</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<referedAttribute>B0DD8BFA-8C1F-920E-1F1E-F6EBEA97082F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_turneu" id="448A9CC1-F323-9200-5793-C72BB5E7E106">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>39B5508B-51F3-83BE-0AFE-278416C87C69</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>FA3C2F77-716B-6D99-B54F-E8E7F2C0CA51</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<referedAttribute>8FD50D6A-9FEC-EF24-FF47-09CC6F3CDBB8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F609B349-488E-F215-1D76-1642317AC722" name="Meciuri PK">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>DD9059D5-D63F-9890-68FD-B7F3D252211A</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DAB7D0D-696F-C51E-1FB5-87E306B0A6EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="echipe_participari_fk" directorySegmentName="seg_0" id="B0B0E963-F81A-94A4-BB87-47B6F1C876EF">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>53772A50-D35C-A823-4D65-1A1F6A65EA3C</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<sourcePk>5F448F5F-A023-F914-4D73-D52CD9AF87A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3F6695EC-6372-93D9-7A9E-6B71B8B82360</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF3706AD-BA0F-9600-7FE6-D3DDB29FC12C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

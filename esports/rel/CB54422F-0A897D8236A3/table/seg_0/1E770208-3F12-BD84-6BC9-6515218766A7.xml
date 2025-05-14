@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E770208-3F12-BD84-6BC9-6515218766A7" name="Echipe">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>3F6695EC-6372-93D9-7A9E-6B71B8B82360</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>C56F0F70-00DA-75F4-0105-E1EC574B5582</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CD44EFC9-099C-27FE-A426-32B9E6075602">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>B0DD8BFA-8C1F-920E-1F1E-F6EBEA97082F</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>3381D711-DE8B-A04B-C25B-A4AAACD19D1A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="89DBF65E-6166-9852-B710-331522A48466">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>9A64AF0D-8DB8-9A79-3DA3-DECE6A800658</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>A77892A1-F48E-35C2-97C8-1A11A38FA14C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tara" id="3E1B603A-6B59-BAFC-0F1D-6D95E24AFC6A">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>093912CF-C8B9-9214-4B90-58DC10105848</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>C4413278-BDE0-FF6A-5F57-7C24121FD653</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E32E145-3883-9837-1D3B-1D8990009CC5" name="Jocuri_PK">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>5F448F5F-A023-F914-4D73-D52CD9AF87A1</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>74BBC15C-1573-AE5C-2E3E-840B384275DB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD44EFC9-099C-27FE-A426-32B9E6075602"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

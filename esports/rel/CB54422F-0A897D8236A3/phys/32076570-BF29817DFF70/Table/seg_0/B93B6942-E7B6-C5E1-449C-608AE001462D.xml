@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Meciuri" directorySegmentName="seg_0" id="B93B6942-E7B6-C5E1-449C-608AE001462D">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="data" id="02029961-E12C-093C-A6A1-8B625386B84F">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="scor2" id="02DBE9DC-CF0A-C022-1BFC-C5A6AFA74DD1">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="09522312-6BC5-79CD-6A31-9173B13CA4D0">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_turneu" id="20B1EC93-2DE0-5662-F081-DEEBE900410D">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_echipa1" id="70647009-B8A0-1FE5-2835-65ECDF1F608B">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_echipa2" id="C3F24973-99FB-EF73-6537-E652C5544834">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="scor1" id="D4D62355-A11F-0598-4CB6-FBD918EBC0A3">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Meciuri__IDX" id="1AB2D2FC-6D1F-5351-AB25-11FA0B128601">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Meciuri__IDXv1" id="3B962E22-8C85-3B5D-B86B-D7F13B32D0CD">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Meciuri__IDXv2" id="CA42432C-1453-C6CA-CC7D-CFBB0062CD75">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="meci_turneu" id="7C89E344-232F-0342-EEE1-0AB798ED9A3A">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="echipe_meci_2" id="B809284D-E658-A3E3-380F-DD0238EF9BA0">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="echipe_meci_1" id="FD10B8B4-8B08-DAE9-3EE2-55F5750F2E32">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Meciuri_PK" id="806D4DC6-948F-5325-C84C-FB47E6C812D5">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

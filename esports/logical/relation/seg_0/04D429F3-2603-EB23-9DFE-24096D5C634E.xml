@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="echipe_meci_2" directorySegmentName="seg_0" id="04D429F3-2603-EB23-9DFE-24096D5C634E">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>45D12229-9CA0-C7F1-D86C-C78D87C69B2C</importedID>
+<engineerTo>
+<item key="50D959FE-4308-0ED5-4F98-C5A3785C812D" value="true"/>
+<item key="CB54422F-3CE0-12B9-3507-0A897D8236A3" value="true"/>
+</engineerTo>
+<sourcePk>5F448F5F-A023-F914-4D73-D52CD9AF87A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3F6695EC-6372-93D9-7A9E-6B71B8B82360</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AA9FA6BB-F3B7-C905-D052-03145CC41B33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

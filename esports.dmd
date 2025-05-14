@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="esports" id="CC78968A-961A-9CE7-1B8D-04C4168414FD" version="3.5">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:52:40 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CC78968A-961A-9CE7-1B8D-04C4168414FD</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="89E9D827-541F-BF75-C509-136AC97A455C">
+<designStoragePath>/home/tero/Desktop/eSports database PBD/esports</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="0DCF3E3B-D466-5B01-0071-BE12C69061DC">
+<designStoragePath>/home/tero/Desktop/eSports database PBD/esports</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

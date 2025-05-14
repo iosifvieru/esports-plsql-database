@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Turnee" directorySegmentName="seg_0" id="E7649C50-8F2F-CFBC-B621-19FDA45FFE0F">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id" id="16A03A02-7AB8-F9B7-81F3-5C36D249ACFE">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_start" id="728F3E9B-AF22-57E0-DD17-162D143FFD3F">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nume" id="82514A51-312A-C854-D65B-B6E4C6AB24FD">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="locatie" id="C9F9E305-CD4E-18CA-D5F0-A01F140B8257">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_final" id="E18F6DAC-C272-C75E-D09C-C9681D8C41C6">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Turnee_PK" id="30635BB0-F494-5B20-4320-947507DC504D">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:55:05 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

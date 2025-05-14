@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50E46A07-F4D3-E1C9-1180-9A4D16D41F82" containerWithKeyObject="AC3CB0D9-8F5B-FA80-9393-0EA6B8F8FFE6" localFKIndex="94FA0426-E9E4-2F93-F7C9-86AF930347D8" name="echipe_participari_fk">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>B0B0E963-F81A-94A4-BB87-47B6F1C876EF</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>79AE60DC-F55D-5B11-8BA5-334ED187D09D</importedID>
+<referredTableLongName>Echipe</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E770208-3F12-BD84-6BC9-6515218766A7</referredTableID>
+<keyObject>7E32E145-3883-9837-1D3B-1D8990009CC5</keyObject>
+<referredKeyID>7E32E145-3883-9837-1D3B-1D8990009CC5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

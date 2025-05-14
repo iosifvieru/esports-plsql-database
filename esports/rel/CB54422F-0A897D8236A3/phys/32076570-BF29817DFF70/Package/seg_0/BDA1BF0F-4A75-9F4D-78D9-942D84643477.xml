@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<PackageOracle class="oracle.dbtools.crest.model.design.storage.oracle.PackageOracle" name="insert_date" directorySegmentName="seg_0" id="BDA1BF0F-4A75-9F4D-78D9-942D84643477">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:56:24 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<source>CREATE OR REPLACE PACKAGE insert_date AS 
+BEGIN
+  -- insert echipa
+  PROCEDURE insert_echipa(
+    v_nume Echipe.nume%type,
+    v_tara Echipe.tara%type
+  );
+  
+  -- insert jucatori
+  PROCEDURE insert_jucatori(
+    v_nume Jucatori.nume%type,
+    v_porecla Jucatori.porecla%type,
+    v_id_echipa Jucatori.id_echipa%type
+  );
+  
+  -- insert meci
+  PROCEDURE insert_meciuri(
+    v_data Meciuri.data%type,
+    v_scor1 Meciuri.scor1%type,
+    v_scor2 Meciuri.scor2%type,
+    v_id_echipa1 Meciuri.id_echipa1%type,
+    v_id_echipa2 Meciuri.id_echipa2%type,
+    v_id_turneu Meciuri.id_turneu%type
+  );
+  
+  -- insert participari
+  PROCEDURE insert_participari(
+    v_punctaj Participari.punctaj%type,
+    v_id_turneu Participari.id_turneu%type,
+    v_id_echipa Participari.id_echipa%type
+  );
+  
+  -- insert turneu
+  PROCEDURE insert_turneu(
+    v_nume Turnee.nume%type,
+    v_locatie Turnee.locatie%type,
+    v_data_start Turnee.data_start%type,
+    v_data_final Turnee.data_final%type
+  );
+  
+END;</source>
+<body class="oracle.dbtools.crest.model.design.storage.oracle.PackageBodyOracle" name="insert_date" id="BDA1BF0F-4A75-9F4D-78D9-942D84643477">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:56:31 UTC</createdTime>
+<ownerDesignName>esports</ownerDesignName>
+<source>CREATE OR REPLACE PACKAGE BODY insert_date AS 
+BEGIN
+  -- insert echipa
+  PROCEDURE insert_echipa(
+    v_nume Echipe.nume%type,
+    v_tara Echipe.tara%type
+  ) IS
+  BEGIN
+    INSERT INTO Echipe (nume, tara) 
+    VALUES (
+      v_nume, v_tara
+    );
+  END insert_echipa;
+  
+
+  -- insert jucatori
+  PROCEDURE insert_jucatori(
+    v_nume Jucatori.nume%type,
+    v_porecla Jucatori.porecla%type,
+    v_id_echipa Jucatori.id_echipa%type
+  ) IS
+  BEGIN
+  
+  END insert_jucatori;
+  
+  -- insert meci
+  PROCEDURE insert_meciuri(
+    v_data Meciuri.data%type,
+    v_scor1 Meciuri.scor1%type,
+    v_scor2 Meciuri.scor2%type,
+    v_id_echipa1 Meciuri.id_echipa1%type,
+    v_id_echipa2 Meciuri.id_echipa2%type,
+    v_id_turneu Meciuri.id_turneu%type
+  ) IS
+  BEGIN
+  
+  END insert_meciuri;
+  
+  -- insert participari
+  PROCEDURE insert_participari(
+    v_punctaj Participari.punctaj%type,
+    v_id_turneu Participari.id_turneu%type,
+    v_id_echipa Participari.id_echipa%type
+  );
+  
+  -- insert turneu
+  PROCEDURE insert_turneu(
+    v_nume Turnee.nume%type,
+    v_locatie Turnee.locatie%type,
+    v_data_start Turnee.data_start%type,
+    v_data_final Turnee.data_final%type
+  ) IS
+  BEGIN
+  
+  END insert_turneu;
+  
+END;</source>
+</body>
+</PackageOracle>

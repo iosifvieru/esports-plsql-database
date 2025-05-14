@@ -1,0 +1,63 @@
+TRIGGERS:
+1. la inserare meci -> data trebuie sa fie intre data_start si data_final din Turnee
+2. la tabela participari -> punctaj actualizat la fiecare inserare de meci
+DONE --- 3. la tabela turnee -> data_start < data_final
+
+tabele:
+=========================
+Echipe
+-------------------------
+- id_echipa
+- nume
+- tara
+- data_infiintari
+
+
+=========================
+Jucatori
+-------------------------
+- id_jucator
+- nume
+- porecla
+- rol
+- id_echipa (FK)
+
+
+=========================
+Turnee
+-------------------------
+- id_turneu
+- nume
+- locatie
+- data_start
+- data_final
+
+
+=========================
+Participari
+-------------------------
+- id_participare
+- id_turneu (FK - turneu)
+- id_echipa (FK - echipa)
+- punctaj
+
+
+=========================
+Meciuri
+-------------------------
+- id_meci
+- id_turneu (FK)
+- id_joc
+- echipa1 (FK)
+- echipa2 (FK)
+- data
+- scor1
+- scor2
+
+
+=========================
+Jocuri
+-------------------------
+- id_joc
+- nume_joc
+- gen (FPS/ MOBA/ Indie, etc)

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A98CDA42-DEE6-E102-EA8B-90F4FE602BAD" containerWithKeyObject="B93B6942-E7B6-C5E1-449C-608AE001462D" localFKIndex="B809284D-E658-A3E3-380F-DD0238EF9BA0" name="echipe_meci_2">
+<createdBy>root</createdBy>
+<createdTime>2025-05-14 15:53:52 UTC</createdTime>
+<generatorID>04D429F3-2603-EB23-9DFE-24096D5C634E</generatorID>
+<ownerDesignName>esports</ownerDesignName>
+<importedID>85ADB769-A5A7-5187-0ACB-E4DF833AC077</importedID>
+<referredTableLongName>Echipe</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E770208-3F12-BD84-6BC9-6515218766A7</referredTableID>
+<keyObject>7E32E145-3883-9837-1D3B-1D8990009CC5</keyObject>
+<referredKeyID>7E32E145-3883-9837-1D3B-1D8990009CC5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
