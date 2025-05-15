@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AF5F5971-5CFE-04DC-D1F5-68AEB97F8B5C" containerWithKeyObject="487C31A8-BA78-55AC-A80B-CD058F2D6384" localFKIndex="B184DF94-9812-FB46-E72D-F241BFA86ABE" name="meci_turneu">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>F4B3CD74-000B-DC56-5AEB-7371ACCAF5B3</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>3191F923-DFAC-68CF-FB20-981E5965BFB7</importedID>
+<referredTableLongName>Turnee</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>47EF3E19-B99D-3571-820B-9954CDCBAD97</referredTableID>
+<keyObject>B8FEDD96-575D-B0DE-CD04-494ABCBF6D24</keyObject>
+<referredKeyID>B8FEDD96-575D-B0DE-CD04-494ABCBF6D24</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

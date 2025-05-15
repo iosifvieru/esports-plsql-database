@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5F8FDA3-6C5A-1503-C032-31BD223B78FD" name="Participari">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>B23BF691-6656-5EDF-3A96-291EDE964910</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>AC3CB0D9-8F5B-FA80-9393-0EA6B8F8FFE6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="60DA0BDD-B4B0-4A27-50CC-C08706F8D696">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>79640CAC-CABC-2AE3-5864-88595BE90C30</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>9A4A9F64-E943-8D46-0CEA-DA6F383D109A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="punctaj" id="759EDCD5-09C3-A900-AD47-CA785996C73E">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>32314F6D-2720-A61D-2135-487BF5061785</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>9EF5D62C-326A-4C9A-3465-B743FDBE0FD7</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_turneu" id="866CA695-D057-313A-6606-F6B9C79EF239">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>4C4E2475-F291-AE48-1316-1E738996DD6F</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>BDCE8063-A3DE-F601-D380-DB0DA2E7A255</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D260211-A7F9-95ED-26FF-692FB7B6B58F" referredColumn="AA3667C9-0B9B-187B-D0D2-B7A434499973"/>
+</associations>
+</Column>
+<Column name="id_echipa" id="90287947-5CC1-DEBD-0446-6EC292480ECB">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>E062C32C-0D4C-5DE2-BF4A-4E77FD461A54</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>5D27CA7E-B6C2-F9EA-04B5-B050CF7AEB8D</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10061C19-8374-F24E-56AC-39209F71FAFF" referredColumn="1D6269E4-DA0D-2ED7-6412-325EF63D1D7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD95BDED-CEF2-167B-1226-2F2DD6CA54D8" name="Participari_PK">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>DDC746C4-393A-8EAE-58BC-B71EEC582740</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>DD65F0C9-1B2C-B6B5-F9DA-469B7ABAFFCB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60DA0BDD-B4B0-4A27-50CC-C08706F8D696"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="564DE4AE-16C7-5806-CEAA-125AA8F9A89A" name="echipe_participari_fk">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>323D2D66-C549-2CDA-A0B5-0E9AAB72620E</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90287947-5CC1-DEBD-0446-6EC292480ECB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E6320A3-2576-9393-48D8-CD197D468563" name="turneu_participari_fk">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>F7734EED-2F89-F366-B70C-CC3D9D77E934</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="866CA695-D057-313A-6606-F6B9C79EF239"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

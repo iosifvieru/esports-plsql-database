@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="turneu_participari_fk" directorySegmentName="seg_0" id="F7734EED-2F89-F366-B70C-CC3D9D77E934">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>DB1893C1-5022-A884-95DD-99EDFAE9367D</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<sourcePk>FDB161B3-145F-92A5-6BD4-7B98C1445D64</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>259919C8-920B-7D53-F800-F908A13F99E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B23BF691-6656-5EDF-3A96-291EDE964910</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

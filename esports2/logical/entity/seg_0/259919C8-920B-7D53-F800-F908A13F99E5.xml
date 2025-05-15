@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="259919C8-920B-7D53-F800-F908A13F99E5" name="Turnee">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>F9D273E9-5624-48A1-7D74-36E5F166FD74</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="026C191E-1FA0-4048-CDB3-207AABE691B3">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>8FD50D6A-9FEC-EF24-FF47-09CC6F3CDBB8</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="F041D795-5C81-8E94-7DEA-FF7250D5BA36">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>D6D2C2DE-A165-6A0A-764E-0BDD61BBD671</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="locatie" id="9D5A504C-E914-BBDD-FE41-C3B00B72F13C">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>E2E7F290-4603-CB15-E2E9-6A1C37DD13FC</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_start" id="72E9E9AC-E64B-174D-D973-54B0B6C1114C">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>97096549-FC3D-B482-342D-417AF2A47052</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_final" id="9E8E65DD-E29D-83BE-A340-A6046E610CE6">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>06283878-E190-0571-2A5B-36985CB5FAE5</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDB161B3-145F-92A5-6BD4-7B98C1445D64" name="Turnee PK">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>2FA5D51A-0742-61A8-D14B-825D9D4F3A17</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>026C191E-1FA0-4048-CDB3-207AABE691B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

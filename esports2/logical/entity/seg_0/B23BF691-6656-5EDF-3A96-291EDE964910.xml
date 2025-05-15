@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B23BF691-6656-5EDF-3A96-291EDE964910" name="Participari">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>FF3706AD-BA0F-9600-7FE6-D3DDB29FC12C</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="79640CAC-CABC-2AE3-5864-88595BE90C30">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>FCD27A97-9383-D890-8B39-96BAD1E141F9</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="punctaj" id="32314F6D-2720-A61D-2135-487BF5061785">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>8C344439-93EA-2AF5-3438-2251B64D3E4A</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_turneu" id="4C4E2475-F291-AE48-1316-1E738996DD6F">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>F7734EED-2F89-F366-B70C-CC3D9D77E934</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>86491A98-1044-304D-7BF9-EAFA0A85918A</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<referedAttribute>026C191E-1FA0-4048-CDB3-207AABE691B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_echipa" id="E062C32C-0D4C-5DE2-BF4A-4E77FD461A54">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>323D2D66-C549-2CDA-A0B5-0E9AAB72620E</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>0D01324F-0E72-5933-328F-D15F4BA7F4A1</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<referedAttribute>3EB6ADF5-EEF1-885E-14E6-41A7272742C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDC746C4-393A-8EAE-58BC-B71EEC582740" name="Participari PK">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>B8412478-4079-AADE-1204-55158E03DB38</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79640CAC-CABC-2AE3-5864-88595BE90C30</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

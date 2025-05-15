@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2EC7D3B-558B-BBAB-ACB4-DA7113E63280" name="Echipe">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>3F6695EC-6372-93D9-7A9E-6B71B8B82360</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3EB6ADF5-EEF1-885E-14E6-41A7272742C4">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>B0DD8BFA-8C1F-920E-1F1E-F6EBEA97082F</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="8DC4F5F9-E2F3-9BAF-4519-9EF6CBA8AD5E">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>9A64AF0D-8DB8-9A79-3DA3-DECE6A800658</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tara" id="36D2E0A8-B52B-C945-9399-862F0B35CB46">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>093912CF-C8B9-9214-4B90-58DC10105848</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6550319-664C-0A98-792D-EBAD0EA393B2" name="Jocuri PK">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>5F448F5F-A023-F914-4D73-D52CD9AF87A1</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EB6ADF5-EEF1-885E-14E6-41A7272742C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B7F550B1-0C19-0612-804D-30488BFEA09D" name="Jucatori">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>D489D631-18DA-7ECA-5B60-931AF884B0E2</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F53751D3-AB1D-C30F-D21F-B25894227483">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>AC35B73B-E474-6460-05E7-2606521A8AEF</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="9846E845-5ED2-2AA9-492B-BBECDFE31273">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>837E5C03-D06F-5B6D-CDD0-45489AD31D2D</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porecla" id="87BFDF1C-F47B-4105-0115-A9D957BC3D2C">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>2DCC3ABB-137C-8BB3-AF00-4A4CCAF664A9</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_echipa" id="F0ADDBAB-1B12-FA54-AA07-F105506F5E0D">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<generatorID>C9734CB0-7D21-F6A0-3424-2040E21A407B</generatorID>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>7C76378E-C6C8-9110-BF23-651E0C50BFA5</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<referedAttribute>3EB6ADF5-EEF1-885E-14E6-41A7272742C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38843A56-024F-592A-7617-452E0F3B175A" name="Jucatori PK">
+<createdBy>root</createdBy>
+<createdTime>2025-05-15 09:33:33 UTC</createdTime>
+<ownerDesignName>esports2</ownerDesignName>
+<importedID>20735981-057F-996B-83A0-0E38CA70C843</importedID>
+<engineerTo>
+<item key="65C58082-46EC-FB76-2B2A-9B317DB3C1B6" value="true"/>
+<item key="D1223DF1-1933-12C0-E9F1-820D710E5648" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F53751D3-AB1D-C30F-D21F-B25894227483</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
