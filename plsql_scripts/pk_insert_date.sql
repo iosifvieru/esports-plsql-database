@@ -1,3 +1,5 @@
+
+-- PACKAGE HEADER
 create or replace PACKAGE insert_date AS
   -- exceptie turneu
   e_data_invalida_turnee EXCEPTION;
@@ -53,6 +55,7 @@ create or replace PACKAGE insert_date AS
     v_data_final Turnee.data_final%type
   );
 
+  -- functie validare data meci
   PROCEDURE validare_data_meci(
     v_id_turneu MECIURI.id_turneu%type,
     v_data MECIURI.data%type
@@ -61,6 +64,7 @@ create or replace PACKAGE insert_date AS
 END insert_date;
 /
 
+-- PACKAGE BODY
 create or replace PACKAGE BODY insert_date AS 
   -- insert echipa
   PROCEDURE insert_echipa(
