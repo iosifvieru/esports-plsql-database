@@ -6,7 +6,7 @@ CREATE OR REPLACE TRIGGER trigger_turnee
     FOR EACH ROW
 BEGIN
     -- validam datele apeland functia validare_turnee_data
-    insert_date.validare_turnee_data(:NEW.data_start, :NEW.data_final);
+    VALIDARE_DATE.validare_turnee_data(:NEW.data_start, :NEW.data_final);
 END;
 /
 
@@ -15,7 +15,7 @@ CREATE OR REPLACE TRIGGER trigger_meci
     BEFORE UPDATE OR INSERT ON Meciuri
     FOR EACH ROW
 BEGIN
-    insert_date.VALIDARE_DATA_MECI(:NEW.id_turneu, :NEW.data);
+    VALIDARE_DATE.VALIDARE_DATA_MECI(:NEW.id_turneu, :NEW.data);
 END;
 /
 

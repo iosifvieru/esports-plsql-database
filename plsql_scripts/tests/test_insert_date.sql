@@ -48,4 +48,15 @@ BEGIN
     insert_date.INSERT_MECIURI(3, TO_DATE('2025-06-10', 'YYYY-MM-DD'), 13, 2, 100, 101, 3);
 END;
 
-select * from PARTICIPARI;
+
+BEGIN
+    -- inserare echipa Natus Vincere (id 100) ca participand la turneul PGL 2025(id 1)
+    insert_date.INSERT_PARTICIPARI(2, 0, 3, 100);
+END;
+/
+
+-- test
+BEGIN
+    insert_date.INSERT_MECIURI(5, TO_DATE('2026-02-2', 'YYYY-MM-DD'), 13, 2, 100, 101, 3);
+END;
+/
