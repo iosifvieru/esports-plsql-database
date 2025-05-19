@@ -1,4 +1,6 @@
 CREATE OR REPLACE PACKAGE DELETE_DATE AS
+    invalid_data EXCEPTION;
+
     -- delete echipe
     PROCEDURE delete_echipe(
         v_id Echipe.id%type
@@ -33,6 +35,10 @@ CREATE OR REPLACE PACKAGE BODY DELETE_DATE AS
     ) IS
     BEGIN
         DELETE FROM Echipe WHERE id = v_id;
+
+        IF(SQL%NOTFOUND) THEN
+            raise invalid_data;
+        END IF;
     END DELETE_ECHIPE;
 
     -- delete jucatori
@@ -41,6 +47,10 @@ CREATE OR REPLACE PACKAGE BODY DELETE_DATE AS
     ) IS
     BEGIN
         DELETE FROM JUCATORI WHERE id = v_id;
+
+        IF(SQL%NOTFOUND) THEN
+            raise invalid_data;
+        END IF;
     END;
 
     -- delete meciuri
@@ -49,6 +59,10 @@ CREATE OR REPLACE PACKAGE BODY DELETE_DATE AS
     ) IS
     BEGIN
         DELETE FROM MECIURI WHERE id = v_id;
+
+        IF(SQL%NOTFOUND) THEN
+            raise invalid_data;
+        END IF;
     END;
 
     -- delete participari
@@ -57,6 +71,10 @@ CREATE OR REPLACE PACKAGE BODY DELETE_DATE AS
     ) IS
     BEGIN
         DELETE FROM PARTICIPARI WHERE id = v_id;
+
+        IF(SQL%NOTFOUND) THEN
+            raise invalid_data;
+        END IF;
     END;
 
     -- delete turnee
@@ -65,6 +83,10 @@ CREATE OR REPLACE PACKAGE BODY DELETE_DATE AS
     ) IS
     BEGIN
         DELETE FROM TURNEE WHERE id = v_id;
+
+        IF(SQL%NOTFOUND) THEN
+            raise invalid_data;
+        END IF;
     END;
 END DELETE_DATE;
 /
